@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_ur3UoU_WEeqaGZr7CNMpnw" servicePort="_usF-IE_WEeqaGZr7CNMpnw"/>
+  <Services:ServicePort xmi:id="_usF-IE_WEeqaGZr7CNMpnw" name="ScreenCastServicePortType" id="_usFXEE_WEeqaGZr7CNMpnw" serviceOperation="_usF-IU_WEeqaGZr7CNMpnw"/>
+  <Services:ServiceOperation xmi:id="_usF-IU_WEeqaGZr7CNMpnw" label="ScreenCastServiceOperation-ScreenCastServicePortType_ScreenCastServiceOperation" name="ScreenCastServiceOperation" id="_usFXEU_WEeqaGZr7CNMpnw" referenceJobId="_5dGpoE_WEeqaGZr7CNMpnw"/>
+</xmi:XMI>
