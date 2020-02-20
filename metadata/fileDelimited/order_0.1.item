@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_RSwBgVM3EeqxwpsPG2c51w" name="order" dataPackage="_RSwBglM3EeqxwpsPG2c51w" Server="Localhost 127.0.0.1" FilePath="C:/Users/Ivan/Documents/talend learning/cookbook/cookbookData/chapter7/chapter07_jo_0000_setupOrderData.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RSwBglM3EeqxwpsPG2c51w" name="default" dataManager="_RSwBgVM3EeqxwpsPG2c51w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RSwBg1M3EeqxwpsPG2c51w" id="_KYjPgFM3EeqxwpsPG2c51w" label="order">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RSwBhFM3EeqxwpsPG2c51w" label="orderId" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RSwBhVM3EeqxwpsPG2c51w" label="customerId" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RSwBhlM3EeqxwpsPG2c51w" label="orderType" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RSwBh1M3EeqxwpsPG2c51w" label="orderDate" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RSwBiFM3EeqxwpsPG2c51w" label="orderTotal" length="6" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
